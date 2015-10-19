@@ -61,7 +61,9 @@ public class SloController
 		{
 			myPopups.showResponse("Q is greater than 18.5");
 		}
-		
+		String Str = new String("Q is still greater than 18.5");
+		myPopups.showResponse(Str.substring(10,40));
+		myPopups.showResponse(Str.concat("YAYAYAYAY"));
 	}
 }
 }
